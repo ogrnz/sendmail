@@ -9,8 +9,8 @@ load_dotenv()
 
 def create_mail(sender, to, subj, content):
     msg = f"""\
-From: From {FROM} <{FROM}>
-To: To {TO} <{TO}>
+From: {FROM} <{FROM}>
+To: {TO} <{TO}>
 MIME-Version: 1.0
 Content-type: text/html
 Subject: {SUBJ}
